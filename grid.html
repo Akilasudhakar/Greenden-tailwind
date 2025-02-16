@@ -1,0 +1,87 @@
+<style>
+    .conatiner {
+        background-color: skyblue;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+
+    .header {
+        background-color: aquamarine;
+        padding: 5px;
+        height: 50px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .footer {
+        background-color: aquamarine;
+        padding: 5px;
+        height: 50px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .one {
+        background-color: greenyellow;
+        color:black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .two {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        background-color: orange;
+        margin: 5px;
+    }
+    .article{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .image1{
+        /* background-color: pink; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .image{
+        background-color: #ffdb4d;
+        /* text-align: center; */
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+</style>
+
+
+
+<div class="conatiner">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="one">
+            Aside
+        </div>
+        <div class="two">
+            <div class="article">Article</div>
+            <div class="image1">
+                <div class="image">Image</div>
+                <div class="image">Image</div>
+                <div class="image">Image</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
